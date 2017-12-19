@@ -3,46 +3,9 @@
 <!-- This finds the current page so it can be highlighted. -->
 <p style="text-align: center; background-color: white;">
   <a href="{{site.baseurl}}/">Home</a> |
-  <a href="{{site.baseurl}}/admin/">Admin</a> | 
-  <a href="{{site.baseurl}}/schedule/week_1/">Week 1</a> | 
-  <a href="{{site.baseurl}}/schedule/week_2/">Week 2</a> | 
-  <a href="{{site.baseurl}}/schedule/week_3/">Week 3</a> | 
-  <a href="{{site.baseurl}}/general/">Misc</a>
+  <a href="{{site.baseurl}}/aboutus">About Us</a> | 
+  <a href="{{site.baseurl}}/calendar"Calendar</a> | 
+  <a href="{{site.baseurl}}/ministries">Ministries</a> | 
+  <a href="{{site.baseurl}}/contactus">Contact Us</a>
 </p>
 
-{% for entry in site.data.navigation %}
-{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-    {% if fullurl == page.url %}
-        {% assign current_page = fullurl %}
-        {% break %}
-    {% elsif page.url contains fullurl %}
-        {% assign current_page = fullurl %}
-    {% endif %}
-{% endfor %}
-
-<!-- Then we build the nav bar. -->
-<nav>
-    <ul>
-    {% for entry in site.data.navigation %}
-        {% if entry.url == current_page %}
-            {% assign current = ' class="current"' %}
-        {% else %}
-            <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
-            {% assign current = null %}
-        {% endif %}
-        {% assign sublinks = entry.sublinks %}
-        {% if sublinks %}
-        <li{{ current }}>
-            <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-            <ul>
-                {% for sublink in sublinks %}
-                <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
-                {% endfor %}
-            </ul>
-        </li>
-        {% else %}
-        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-</nav>
