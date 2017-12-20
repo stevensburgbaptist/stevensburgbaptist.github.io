@@ -17,10 +17,26 @@
   {% else %}
     <li><a href="{{site.baseurl}}/">Home</a></li>
   {% endif %}
-  <li><a href="{{site.baseurl}}/aboutus">About Us</a></li>
-  <li><a href="{{site.baseurl}}/calendar">Calendar</a></li>
-  <li><a href="{{site.baseurl}}/ministries">Ministries</a></li>
-  <li><a href="{{site.baseurl}}/contactus">Contact Us</a></li>
+  {% if active == aboutus % }
+    <li><a class="active" href="{{site.baseurl}}/aboutus">About Us</a></li>
+  {% else %}
+    <li><a href="{{site.baseurl}}/aboutus">About Us</a></li>
+  {% endif %}
+  {% if active == calendar % }
+    <li><a class="active" href="{{site.baseurl}}/calendar">Calendar</a></li>
+  {% else %}     
+    <li><a href="{{site.baseurl}}/calendar">Calendar</a></li>
+  {% endif %}
+  {% if active == ministries % }
+    <li><a class="active" href="{{site.baseurl}}/ministries">Ministries</a></li>
+  {% else %}     
+    <li><a href="{{site.baseurl}}/ministries">Ministries</a></li>
+  {% endif %}
+  {% if active == contactus % }
+    <li><a class="active" href="{{site.baseurl}}/contactus">Contact Us</a></li>
+  { else %}
+    <li><a href="{{site.baseurl}}/contactus">Contact Us</a></li>
+  {% endif %}
 </ul>
 </p>
 --!>
