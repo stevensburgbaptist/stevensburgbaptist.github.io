@@ -1,7 +1,4 @@
----
-thispage = aboutus
----
-{% include navigation.html %}
+
 ## Welcome to Stevensburg Baptist Church
 
 You can use the [editor on GitHub](https://github.com/stevensburgbaptist/stevensburgbaptist.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
