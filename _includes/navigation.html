@@ -1,17 +1,17 @@
-{% if page.url contains aboutus %}
+{% if page.thispage contains aboutus %}
       {% assign active = aboutus %}
-{% elsif page.url contains calendar %}
+{% elsif page.thispage contains calendar %}
       {% assign active = calendar %}
-{% elsif page.url contains ministries %}
+{% elsif page.thispage contains ministries %}
       {% assign active = ministries %}
-{% elsif page.url contains contactus %}
+{% elsif page.thispage contains contactus %}
       {% assign active = contactus %}
 {% else %}
       {% assign active = home %}
 {% endif %}
 
 <p>
-      {% page.url %}
+      {% page.thispage %}
 <ul>
   {% if active == home % }
     <li><a class="active" href="{{site.baseurl}}/">Home</a></li>
