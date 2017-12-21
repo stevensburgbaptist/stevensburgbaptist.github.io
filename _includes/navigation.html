@@ -44,6 +44,7 @@
   {% else %}     
     <li><a href="{{site.baseurl}}/ministries">Ministries</a></li>
   {% endif %}
+      
   {% if active == "missions" %}
     <li><a class="active" href="{{site.baseurl}}/missions">Missions</a></li>
     <li><a href="{{site.baseurl}}/contactus">Contact Us</a></li>
@@ -69,7 +70,9 @@
   {% endif %}
   {% if active == "contactus" %}
     <li><a class="active" href="{{site.baseurl}}/contactus">Contact Us</a></li>
-  {% eleif active != "missions" %}
+  {% endif %}
+  {% if active == "missions" %}
+  {% else %}
     <li><a href="{{site.baseurl}}/contactus">Contact Us</a></li>
   {% endif %}
 </ul>
