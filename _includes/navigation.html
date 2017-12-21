@@ -12,6 +12,16 @@
       {% assign active = "home" %}
 {% endif %}
 
+{% if page.url contains "romania" %}
+      {% assign mission = "romania" %}
+{% elsif page.url contains "haiti" %}
+      {% assign mission = "haiti" %}
+{% elsif page.url contains "africa" %}
+      {% assign mission = "africa" %}
+{% else %}
+      {% assign mission = "none" %}
+{% endif %}
+
 <p>
 <ul>
   {% if active == "home" %}
@@ -36,6 +46,24 @@
   {% endif %}
   {% if active == "missions" %}
     <li><a class="active" href="{{site.baseurl}}/missions">Missions</a></li>
+    </ul>
+    </p>
+    <ul><p>
+    {% if mission == "romania" %}
+      <li><a class="active" href="{{site.baseurl}}/missions-romania">Romania</a></li>
+    {% else %}
+      <li><a href="{{site.baseurl}}/missions-romania">Romania</a></li>
+    {% endif %}
+    {% if mission == "africa" %}
+      <li><a class="active" href="{{site.baseurl}}/missions-africa">Africa</a></li>
+    {% else %}
+      <li><a href="{{site.baseurl}}/missions-africa">Africa</a></li>
+    {% endif %}
+    {% if mission == "haiti" %}
+      <li><a class="active" href="{{site.baseurl}}/missions-haiti">Haiti</a></li>
+    {% else %}
+      <li><a href="{{site.baseurl}}/missions-haiti">Haiti</a></li>
+    {% endif %}
   {% else %}     
     <li><a href="{{site.baseurl}}/missions">Missions</a></li>
   {% endif %}
