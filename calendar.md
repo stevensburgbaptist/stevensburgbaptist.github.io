@@ -14,4 +14,4 @@
 ### Wednesday
   6:30 p.m. - Prayer Meeting & Youth Group
 
-<iframe src="https://calendar.google.com/calendar/embed?src=u49qsjopr37lssj9jvdunevgik%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=u49qsjopr37lssj9jvdunevgik%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="600" height="500" frameborder="0" scrolling="no"></iframe>
