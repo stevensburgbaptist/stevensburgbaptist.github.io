@@ -1,4 +1,4 @@
-West Africa - Guinea, Sierra Leone
+# West Africa - Guinea, Sierra Leone
 
 Members of Stevensburg have partnered with the International Mission Board missionaries in Guinea to provide relief, 
 encouragement and Bible teaching to the Susu people group there and in Sierra Leone.  They have assisted with building 
