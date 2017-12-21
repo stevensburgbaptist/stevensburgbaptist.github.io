@@ -7,16 +7,25 @@ Email: <mailto:stevensburgbaptist@gmail.com>
 
 # Directions
 
-## From Culpeper:
+## From Culpeper:  
+
 1. Take Rt. 3 East about 5 miles  
+
 2. Turn left onto Stevensburg Rd. (Rt. 633)  
+
 3. Go 100 yards and turn right onto York Rd. (Rt. 600)  
+
 4. Go 1/3 mile & church is on the left  
 
-## From Fredericksburg:
+
+## From Fredericksburg:  
+
 1. Take Rt. 3 West  
+
 2. Go 12 miles past Lake of the Woods  
+
 3. Turn right onto York Rd. (Rt. 600)  
+
 4. Go 1/3 mile & church is on the right  
 
   
