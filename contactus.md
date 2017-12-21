@@ -18,7 +18,7 @@ Email: <mailto:stevensburgbaptist@gmail.com>
 2. Go 12 miles past Lake of the Woods  
 3. Turn right onto York Rd. (Rt. 600)  
 4. Go 1/3 mile & church is on the right  
-
+  
 ## Map  
-<iframe width="500" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=19393+York+Road+Stevensburg,+VA+22741&amp;sll=37.0625,-95.677068&amp;sspn=44.069599,74.443359&amp;ie=UTF8&amp;ll=38.442632,-77.895255&amp;spn=0.011764,0.021458&amp;z=15&amp;output=embed"></iframe>
-<a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=19393+York+Road+Stevensburg,+VA+22741&amp;sll=37.0625,-95.677068&amp;sspn=44.069599,74.443359&amp;ie=UTF8&amp;ll=38.442632,-77.895255&amp;spn=0.011764,0.021458&amp;z=15" target="_blank" style="color:#333;text-align:left">View Larger Map</a>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12499.702994218242!2d-77.89489099999999!3d38.443183999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b69dd81c9e0d13%3A0xc1097983af277115!2s19393+York+Rd%2C+Stevensburg%2C+VA+22741!5e0!3m2!1sen!2sus!4v1513884212578" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
