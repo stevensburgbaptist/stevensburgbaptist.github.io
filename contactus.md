@@ -1,9 +1,9 @@
-Stevensburg Baptist Church
-  `P.O. Box 41
-  19393 York Road
-  Stevensburg, VA 22741
-  Phone: 540-399-1066`
-  Email: <mailto:stevensburgbaptist@gmail.com>stevensburgbaptist@gmail.com</mailto>
+> Stevensburg Baptist Church
+> P.O. Box 41
+> 19393 York Road
+> Stevensburg, VA 22741
+> Phone: 540-399-1066
+> Email: <mailto:stevensburgbaptist@gmail.com>stevensburgbaptist@gmail.com</mailto>
 
 # Directions
 
