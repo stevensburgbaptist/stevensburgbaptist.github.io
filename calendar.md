@@ -17,6 +17,3 @@
   
 <iframe src="https://calendar.google.com/calendar/embed?src=u49qsjopr37lssj9jvdunevgik%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="600" height="500" frameborder="0" scrolling="no"></iframe>
 
-1. one
-2. two
-3. three
