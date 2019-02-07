@@ -2,7 +2,7 @@
 
 To be a beacon of God’s love; Biblically based, Christ centered, Family oriented and Mission focused.
 
-## Our beliefs
+# Our Beliefs
 
 - The Bible has God as its author, salvation for its end and truth, without any mixture of error.  Therefore, all Scripture is totally true and trustworthy and is the supreme standard by which all human conduct should be tried. (2 Tim. 3:15-17)
    
