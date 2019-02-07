@@ -1,5 +1,7 @@
 {% if page.url contains "aboutus" %}
       {% assign active = "aboutus" %}
+{% if page.url contains "ourmission" %}
+      {% assign active = "ourmission" %}
 {% elsif page.url contains "calendar" %}
       {% assign active = "calendar" %}
 {% elsif page.url contains "ministries" %}
@@ -33,6 +35,11 @@
     <li><a class="active" href="{{site.baseurl}}/aboutus">About Us</a></li>
   {% else %}
     <li><a href="{{site.baseurl}}/aboutus">About Us</a></li>
+  {% endif %}
+  {% if active == "ourmission" %}
+    <li><a class="active" href="{{site.baseurl}}/ourmission">Our Mission</a></li>
+  {% else %}
+    <li><a href="{{site.baseurl}}/ourmission">Our Mission</a></li>
   {% endif %}
   {% if active == "calendar" %}
     <li><a class="active" href="{{site.baseurl}}/calendar">Calendar</a></li>
