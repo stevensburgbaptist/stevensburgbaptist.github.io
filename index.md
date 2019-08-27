@@ -1,7 +1,7 @@
 ## Awana Clubs start September 1st, 2019!!
 
 ## Come join us for the LEGO Derby on Sept 14th, 2019!!
-<img src="./images/GP_Logo_Grayscale.jpg" width="200">
+<img src="./images/FB_IMG_1552827730188.jpg" width="200">
 
 The LEGO Derby is back!
 
